@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0 5%;
+}
+
+h1 {
+    color: crimson;
+}
+
+h1,h2 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.card {
+    display: flex;
+    height: 100px;
+    width: 350px;
+
+    background-color: black;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.name {
+    color: white;
+}
+
+.role {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
